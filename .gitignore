@@ -1,0 +1,35 @@
+# Build output
+conceal
+selftest
+conceal_pidns
+trace_bench
+*.exe
+*.o
+*.obj
+
+# bench scratch
+accept_run
+bench_run
+bv_run
+tr[0-9]
+final[0-9]
+heal[0-9]
+run[0-9]
+bench[0-9]
+cmdprobe*
+commtest*
+probe*
+
+# MinGW cross-toolchain leftovers
+*.dll
+*.a
+
+# editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
